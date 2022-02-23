@@ -51,6 +51,11 @@ span.title {
     color: #903;
     font-weight: bold;
 }
+
+span.content {
+    margin-left: 50px;
+}
+
 ul.description {
     list-style: none;
     padding-left: 0;
