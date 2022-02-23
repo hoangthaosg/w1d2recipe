@@ -1,0 +1,59 @@
+/* change color of 2 element */
+h1, h3 {
+    color: blueviolet;
+}
+
+/* change font properties 2 element */
+
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+/* change at least one other thing - background-color */
+em {
+    background-color: aqua;
+}
+
+/* Make your hyperlinks not underlined by default. */
+
+li > a:link {
+    text-decoration: none;
+}
+
+li > a:hover {
+    text-decoration: underline;
+}
+
+/* drops-cap */
+
+p {
+    margin-bottom: 50px;
+}
+
+p::first-letter {
+    color: #903;
+    float: left;
+    font-family: Georgia;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+/* Favorite Movie */
+
+span.title {
+    color: #903;
+    font-weight: bold;
+}
+ul.description {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0;
+}
+
